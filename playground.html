@@ -13,13 +13,17 @@
   <body>
     <a-scene>
     <a-assets>
+      <a-asset-item id="arrow" src="media/arrow.gltf"></a-asset-item>
       <a-asset-item id="popcorn" src="media/popcorn.gltf"></a-asset-item>
     </a-assets>
     
-    <a-gltf-model position="0 0 -10" src="#popcorn"></a-gltf-model>
+   
+    <a-entity position="0 0 -10">
 
-    <a-gltf-model  position="0 0 -10" id="pop" rotation="0 0 0" src="#popcorn" mesh-particles="duration:0.5; sspawnRate: 50; lifeTime: 0.5..1; spawnType: burst; radialPosition: .1; radialVelocity: 2..5; velocity: 0 0 -1..0 0 -2; acceleration: 0 0 1; scale: 1; rotation: -45 -45 -45..45 45 45; opacity: 1,1,1,1,0" gltf-model=""></a-gltf-model>
-
+      <a-gltf-model   id="arrow" rotation="90 90 0" src="#arrow"></a-gltf-model>
+   
+    <a-gltf-model   id="pop" rotation="0 0 0" src="#popcorn" mesh-particles="duration:0.5; sspawnRate: 50; lifeTime: 0.5..1; spawnType: burst; radialPosition: .1; radialVelocity: 2..5; velocity: 0 0 -1..0 0 -2; acceleration: 0 0 1; scale: 1; rotation: -45 -45 -45..45 45 45; opacity: 1,1,1,1,0" gltf-model=""></a-gltf-model>
+  </a-entity>
   
   
   </a-scene>
