@@ -31,7 +31,7 @@ grid-template-rows:20% 50% auto;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
-  background-color: red;
+  background-color: #e30613;
 }
 
 #top h1{
@@ -42,7 +42,7 @@ grid-template-rows:20% 50% auto;
 }
 
 #center{
-  color: red;
+  color: #e30613;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 2;
@@ -57,7 +57,7 @@ grid-template-rows:20% 50% auto;
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
-  background-color: red;
+  background-color: #e30613;
 }
 
 #button a{
