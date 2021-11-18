@@ -23,7 +23,7 @@ display: grid;
 margin: 0px;
 padding:0px;
 grid-template-columns:auto 80% auto;
-grid-template-rows:20% 70% auto;
+grid-template-rows:20% 50% auto;
 }
 
 #top{
